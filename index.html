@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Scape</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="#">Buy a Course</a></li>
+                    <li><a href="#">Success</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="assets/logo.png" width="180px" height="60px" alt="Logo">
+            </div>
+            <div>
+                <div class="search-container">
+                    <button>
+                        <img src="assets/search.png" width="22px" height="22px" alt="Logo">
+                    </button>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="btn-head">
+                    <button class="btn-login">Log In</button>
+                    <button class="btn-regist">Sign Up</button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <span class="small-title">Over 3 million ready to learn from the best!</span>
+            <h1>The world’s destination <br> for design</h1>
+            <div class="title-bawah">
+                <p>Get inspired by the work of millions of top-rated designers & agencies around the world.</p>
+            </div>
+            <button>Get Started</button>
+        </section>
+        <section class="company">
+            <h2>Trusted by over 15,000 companies and millions of learners around the world</h2>
+            <div class="company-container">
+                <div class="card-company">
+                    <img src="assets/volkswagen_logo.svg" alt="Volkswagen">
+                </div>
+                <div class="card-company">
+                    <img src="assets/samsung_logo.svg" alt="Samsung">
+                </div>
+                <div class="card-company">
+                    <img src="assets/cisco.svg" alt="Cisco">
+                </div>
+                <div class="card-company">
+                    <img src="assets/vimeo.svg" alt="Vimeo">
+                </div>
+                <div class="card-company">
+                    <img src="assets/pg.svg" alt="P&G">
+                </div>
+                <div class="card-company">
+                    <img src="assets/hawlett.svg" alt="Hawlett">
+                </div>
+                <div class="card-company">
+                    <img src="assets/ericsson.svg" alt="Ericsson">
+                </div>
+
+            </div>
+        </section>
+        <section class="video-learning">
+            <div class="title">
+                <h2>A broad selection of courses</h2>
+                <p>Choose from over 220,000 online video courses with new additions published every month</p>
+            </div>
+            <div>
+                <button class="tablinks" onclick="openTab(event, 'python')">Python</button>
+                <button class="tablinks" onclick="openTab(event, 'excel')">Excel</button>
+                <button class="tablinks" onclick="openTab(event, 'web-dev')">Web Development</button>
+                <button class="tablinks" onclick="openTab(event, 'javascript')">Javascript</button>
+                <button class="tablinks" onclick="openTab(event, 'data')">Data Science</button>
+
+                <div id="python" class="tabcontent">
+                    <div>
+                        <h3>Expand your career opportunities with Python</h3>
+                        <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly
+                            useful language. Its simple syntax and readability makes Python perfect for Flask, Django,
+                            data science, and machine learning. You’ll learn how to build everything from games to sites
+                            to apps.</p>
+                        <button>Explore Python</button>
+                    </div>
+                    <div class="container-video">
+                        <div class="card-video">
+                            <img src="assets/python/python_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete Python Bootcamp From Zero to Hero in Python</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/python/python_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete Python Bootcamp From Zero to Hero in Python</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/python/python_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete Python Bootcamp From Zero to Hero in Python</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/python/python_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete Python Bootcamp From Zero to Hero in Python</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="excel" class="tabcontent">
+                    <div>
+                        <h3>Analyze and visualize data with Excel</h3>
+                        <p>Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard
+                            software. Real-world experts will show you the basics like how to organize data into sheets,
+                            rows and columns, and advanced techniques like creating complex dynamic formulas.</p>
+                        <button>Explore Excel</button>
+                    </div>
+                    <div class="container-video">
+                        <div class="card-video">
+                            <img src="assets/excel/excel_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Excel Zero to Advance w/ Data Analysis Masterclass & ChatGPT</span>
+                                <small>Irfan Sharif</small>
+                                <span class="price">Rp149,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/excel/excel_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Excel Zero to Advance w/ Data Analysis Masterclass & ChatGPT</span>
+                                <small>Irfan Sharif</small>
+                                <span class="price">Rp149,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/excel/excel_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Excel Zero to Advance w/ Data Analysis Masterclass & ChatGPT</span>
+                                <small>Irfan Sharif</small>
+                                <span class="price">Rp149,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/excel/excel_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Excel Zero to Advance w/ Data Analysis Masterclass & ChatGPT</span>
+                                <small>Irfan Sharif</small>
+                                <span class="price">Rp149,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="web-dev" class="tabcontent">
+                    <div>
+                        <h3>Build websites and applications with Web Development</h3>
+                        <p>The world of web development is as wide as the internet itself. Much of our social and
+                            vocational lives play out on the internet, which prompts new industries aimed at creating,
+                            managing, and debugging the websites and applications that we increasingly rely on.</p>
+                        <button>Explore Web Development</button>
+                    </div>
+                    <div class="container-video">
+                        <div class="card-video">
+                            <img src="assets/web/web_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Practical Web Development: 22 Courses in 1</span>
+                                <small>Creative Online School</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/web/web_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Practical Web Development: 22 Courses in 1</span>
+                                <small>Creative Online School</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/web/web_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Practical Web Development: 22 Courses in 1</span>
+                                <small>Creative Online School</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/web/web_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Practical Web Development: 22 Courses in 1</span>
+                                <small>Creative Online School</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="javascript" class="tabcontent">
+                    <div>
+                        <h3>Grow your software development skills with JavaScript</h3>
+                        <p>JavaScript is a text-based computer programming language used to make dynamic web pages. A
+                            must-learn for aspiring web developers or programmers, JavaScript can be used for features
+                            like image carousels, displaying countdowns and timers, and playing media on a webpage.</p>
+                        <button>Explore Javascript</button>
+                    </div>
+                    <div class="container-video">
+                        <div class="card-video">
+                            <img src="assets/java/java_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete JavaScript Course 2024: From Zero to Expert!</span>
+                                <small>Jonas Schmedtmann</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/java/java_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete JavaScript Course 2024: From Zero to Expert!</span>
+                                <small>Jonas Schmedtmann</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/java/java_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete JavaScript Course 2024: From Zero to Expert!</span>
+                                <small>Jonas Schmedtmann</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/java/java_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>The Complete JavaScript Course 2024: From Zero to Expert!</span>
+                                <small>Jonas Schmedtmann</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="data" class="tabcontent">
+                    <div>
+                        <h3>Lead data-driven decisions with Data Science</h3>
+                        <p>Data science application is an in-demand skill in many industries worldwide — including
+                            finance, transportation, education, manufacturing, human resources, and banking. Explore
+                            data science courses with Python, statistics, machine learning, and more to grow your
+                            knowledge.</p>
+                        <button>Explore Data Science</button>
+                    </div>
+                    <div class="container-video">
+                        <div class="card-video">
+                            <img src="assets/data/data_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Python for Data Science and Machine Learning Bootcamp</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/data/data_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Python for Data Science and Machine Learning Bootcamp</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/data/data_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Python for Data Science and Machine Learning Bootcamp</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                        <div class="card-video">
+                            <img src="assets/data/data_1.jpg" alt="">
+                            <div class="content-video">
+                                <span>Python for Data Science and Machine Learning Bootcamp</span>
+                                <small>Jose Portilla</small>
+                                <span class="price">Rp129,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="testimonial">
+            <div>
+                <h2>How learners like you are achieving their goals</h2>
+            </div>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/quote.svg" alt="img" draggable="false">
+                        </div>
+                        <p>I am proud to say that after a few months of taking this course...I passed my exam and am now
+                            an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</p>
+                        <div class="people">
+                            <div class="initial">
+                                <span>WA</span>
+                            </div>
+                            <span class="name">Will A</span>
+                        </div>
+                        <hr>
+                        <div class="choose">
+                            <div class="choose-img">
+                                <img src="assets/play.png" alt="img" draggable="false">
+                            </div>
+                            <span>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </section>
+        <section class="categories">
+            <h2>Top Categories </h2>
+            <div class="container-categories">
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/design.jpg" alt="design">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Design</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/development.jpg" alt="development">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Development</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/marketing.jpg" alt="marketing">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Marketing</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/it.jpg" alt="it">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>IT and Software</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/personal.jpg" alt="personal">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Personal Development</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/business.jpg" alt="business">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Business</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/photography.jpg" alt="photography">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="card-categories">
+                    <div class="img-categories">
+                        <img src="/assets/categories/music.jpg" alt="music">
+                    </div>
+                    <div class="content-video-cat">
+                        <span>Music</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside class="intermezzo">
+        <div class="container-intermezzo" id="container-intermezzo">
+            <div class="content-intermezzo">
+                <p>What do vacations and aliens have in common? 👽🏖️ They're both in our weekly warm-up!</p>
+                <div>
+                    <button>Join Now</button>
+                </div>
+            </div>
+            <div class="close-icon" onclick="closePromo()">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="logo">
+            <img src="assets/logo.png" width="120px" height="45px" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Buy a Course</a></li>
+                <li><a href="#">Success</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script/scripts.js"></script>
+    <script src="script/tab.js"></script>
+    <script src="script/testimonial.js"></script>
+</body>
+
+</html>
